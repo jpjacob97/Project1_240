@@ -11,6 +11,7 @@ public class BikePart {
     private double listPrice;
     private double salePrice;
     private boolean isOnSale;
+    private int quantity;
     
 /**
  * Sets all of the fields for this class.
@@ -20,14 +21,15 @@ public class BikePart {
      * @param lp
      * @param sp
      * @param sale
+     * @param q
  */
-    public BikePart(String name, int num, double lp, double sp, boolean sale){
+    public BikePart(String name, int num, double lp, double sp, boolean sale, int q){
         partName= name;
         partNum=num;
         listPrice=lp;
         salePrice=sp;
         isOnSale=sale;
-        
+        quantity=q;
     }
     
     public void setName(String name){
@@ -45,6 +47,10 @@ public class BikePart {
     public void setOnSale(boolean sale){
         isOnSale=sale;
     }
+    public void setQuaantity(int q){
+        quantity=q;
+    }
+    
     /**
      * 
      * @return the entire line of info for the part.
@@ -64,5 +70,6 @@ public class BikePart {
         else
             return listPrice;
     }
+    
     
 }

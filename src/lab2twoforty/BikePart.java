@@ -22,7 +22,7 @@ public class BikePart {
      * @param sp
      * @param sale
      * @param q
- */
+ */s
     public BikePart(String name, int num, double lp, double sp, boolean sale, int q){
         partName= name;
         partNum=num;
@@ -41,13 +41,13 @@ public class BikePart {
     public void setListPrice(double lp){
         listPrice=lp;
     }
-    public void setSalePRice(double sp){
+    public void setSalePrice(double sp){
         salePrice=sp;
     }
     public void setOnSale(boolean sale){
         isOnSale=sale;
     }
-    public void setQuaantity(int q){
+    public void setQuasntity(int q){
         quantity=q;
     }
     
@@ -56,7 +56,7 @@ public class BikePart {
      * @return the entire line of info for the part.
      */
     public String get(){
-        return (partName+", "+partNum+", "+listPrice+", "+salePrice+", "+isOnSale);
+        return (partName+", "+partNum+", "+listPrice+", "+salePrice+", "+isOnSale+", "+quantity);
     }
     
     /**

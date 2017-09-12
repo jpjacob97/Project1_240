@@ -6,7 +6,7 @@
 package lab9;
 import java.util.Scanner;
 /**
- *yella
+ *riza
  * @author jacobpetersen
  */
 public class Lab9 {

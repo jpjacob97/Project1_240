@@ -22,7 +22,7 @@ public class BikePart {
      * @param sp
      * @param sale
      * @param q
- */s
+ */
     public BikePart(String name, int num, double lp, double sp, boolean sale, int q){
         partName= name;
         partNum=num;
